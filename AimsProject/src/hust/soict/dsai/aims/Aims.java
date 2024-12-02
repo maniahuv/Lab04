@@ -20,7 +20,7 @@ public class Aims {
     public static void main(String[] args) {
         store.addMedia(new DigitalVideoDisc("The Matrix", "Sci-Fi", "Wachowski", 136, 19.99f));
         store.addMedia(new DigitalVideoDisc("Inception", "Sci-Fi", "Christopher Nolan", 148, 14.99f));
-        
+        store.addMedia(new DigitalVideoDisc("Endgame", "Sci-Fi", "Marvel", 180, 18.99f));
         // Menu
         Scanner scanner = new Scanner(System.in);
         while (true) {
