@@ -1,0 +1,5 @@
+{
+    "java.project.sourcePaths": ["src"], // Chỉ định thư mục chứa mã nguồn
+    "java.outputDir": "bin", // Thư mục lưu file biên dịch
+    "java.errors.incompleteClasspath.severity": "ignore" // Bỏ qua cảnh báo classpath
+}
