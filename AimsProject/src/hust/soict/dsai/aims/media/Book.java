@@ -23,7 +23,7 @@ public class Book extends Media {
         for (String author : authors){
             if (author.equals(authorName)){
                 a=true;
-                System.out.println("Error, cannot add authorname!");
+                System.out.println("Error, cannot add athorname!");
             }
         }
         if (a==false) authors.add(authorName);
